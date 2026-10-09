@@ -20,7 +20,7 @@ pipeline {
 			}
 		}
 
-		stage('Build) {
+		stage('Build') {
 			steps {
 				sh './vens/bin/python -m py_compile app.py'
 			}
