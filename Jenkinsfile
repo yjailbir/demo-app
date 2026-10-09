@@ -22,7 +22,7 @@ pipeline {
 
 		stage('Build') {
 			steps {
-				sh './vens/bin/python -m py_compile app.py'
+				sh './venv/bin/python -m py_compile app.py'
 			}
 		}
 
